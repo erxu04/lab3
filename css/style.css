@@ -6,6 +6,7 @@ body {
 
 #content {
   padding: 2.7em 1em;
+  
 }
 
 h1  {
@@ -39,7 +40,7 @@ p {
   /* margin: 8px 1.5%; */
   border: none;
   border-radius: 6px;
-  background-color: #EFEFEF;
+  background-color: #efefef;
 }
 
 #input-age-verification {
@@ -70,10 +71,44 @@ p {
   background-color:rgb(90, 138, 177);
 }
 
-@media screen and (min-width:700px){
-  body{
-    background-color: antiquewhite;
+@media screen and (min-width: 480px){
+
+  #content {
+    padding: 2.7em 0;
+    margin: 0 1em;
+    /* background-color: aliceblue; */
   }
+
+  h1 {
+    font-size: 4em;
+  }
+
+  p {
+    font-size: 1.56em;
+  }
+
+  #input-email {
+    font-size: 1.56em;
+  }
+
+  #input-email input{
+    box-sizing: border-box;
+    padding: 0.5em;
+    /* font-size: 0.7em; */
+  }
+
+  #input-age-verification{
+    font-size: 1em;
+  }
+
+  #submit{
+    width: 200px;
+  }
+
+}
+
+@media screen and (min-width: 960px){
+  
 }
 
 /* body {
