@@ -1,5 +1,82 @@
-/* base MOBILE style */
 body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+#content {
+  padding: 2.7em 1em;
+}
+
+h1  {
+  box-sizing: border-box;
+  font-weight: 700;
+  font-size: 2.2em;
+  line-height: 1.2em;
+  margin: 0.4em 0;
+}
+
+p {
+  font-size: 1em;
+  margin: 1em 0 1em 0;
+  padding-bottom: 1em;
+}
+
+#wow {
+  font-style: italic;
+}
+
+#input-email {
+  margin: 1em 0 1em 0;
+}
+
+#input-email input{
+  box-sizing: border-box;
+  width: fit-content;
+  /* font-size: 1em; */
+  font-family: 'Raleway', sans-serif;
+  padding: 0.2em;
+  /* margin: 8px 1.5%; */
+  border: none;
+  border-radius: 6px;
+  background-color: #EFEFEF;
+}
+
+#input-age-verification {
+  margin: 1em 0 1em 0;
+  font-size:0.9em;
+}
+
+#input-age-verification input[type="checkbox"] {
+  height: 0.9em;
+  width: 0.9em;
+}
+
+#input-submit {
+  padding-top: 1em;
+}
+#submit {
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 5px;
+  border: 0;
+  font-size: 1.2em;
+  padding: 1em 0 1em 0;
+  font-family: 'Raleway', sans-serif;
+  background-color:rgb(140, 186, 224);
+} 
+
+#submit:hover {
+  background-color:rgb(90, 138, 177);
+}
+
+@media screen and (min-width:700px){
+  body{
+    background-color: antiquewhite;
+  }
+}
+
+/* body {
   font-family: 'Raleway', sans-serif;
   font-size: 30px;
   text-align: center;
@@ -73,7 +150,7 @@ p {
   body  {
     background-color:aqua;
   }
-}
+} */
 
 
 /* label {
